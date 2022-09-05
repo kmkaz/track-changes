@@ -1,0 +1,21 @@
+﻿[
+  {
+    "consumerId": "CatMonitor",
+    "fields": [
+      "Category.Name"
+    ]
+  },
+  {
+    "consumerId": "PriceMonitor",
+    "fields": [
+      "Price"
+    ]
+  },
+  {
+    "consumerId": "ItemMonitor",
+    "fields": [
+      "Name",
+      "Description"
+    ]
+  }
+]
