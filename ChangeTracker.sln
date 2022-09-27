@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTracker", "ChangeTracker.csproj", "{E30133F8-7993-47F0-A97D-CA58018692DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDetector", "ChangeDetector\ChangeDetector.csproj", "{0F3CEAA7-2FCE-4114-BCF9-63739F3C0A7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeDetectionTest", "ChangeDetectionTest\ChangeDetectionTest.csproj", "{DB117819-11AB-4EFF-AA76-A3D4A8080527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E30133F8-7993-47F0-A97D-CA58018692DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E30133F8-7993-47F0-A97D-CA58018692DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E30133F8-7993-47F0-A97D-CA58018692DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E30133F8-7993-47F0-A97D-CA58018692DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3CEAA7-2FCE-4114-BCF9-63739F3C0A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3CEAA7-2FCE-4114-BCF9-63739F3C0A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3CEAA7-2FCE-4114-BCF9-63739F3C0A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3CEAA7-2FCE-4114-BCF9-63739F3C0A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB117819-11AB-4EFF-AA76-A3D4A8080527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB117819-11AB-4EFF-AA76-A3D4A8080527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB117819-11AB-4EFF-AA76-A3D4A8080527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB117819-11AB-4EFF-AA76-A3D4A8080527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

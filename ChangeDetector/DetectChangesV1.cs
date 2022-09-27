@@ -1,6 +1,6 @@
-﻿namespace ChangeTracker
+﻿namespace ChangeDetector
 {
-    public static class TrackChanges
+    public static class DetectChangesV1
     {
         public static bool IsChanged(Object obj1, Object obj2, string[] fields)
         {
@@ -15,7 +15,7 @@
             return false;
         }
 
-        public static object GetPropertyValue(object src, string propName)
+        private static object? GetPropertyValue(object src, string propName)
         {
             if (src == null) return null;
             if (propName == null) return null;
