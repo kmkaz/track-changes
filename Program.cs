@@ -29,7 +29,6 @@ var item2 = new Item
     }
 };
 
-
 var configList = ConfigReader.ReadConfig();
 
 foreach (var config in configList)
